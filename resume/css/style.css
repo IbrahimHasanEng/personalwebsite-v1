@@ -1,0 +1,230 @@
+.container .content
+{
+    padding:0;
+    margin:auto;
+    margin-top:200px;
+    margin-bottom:75px;
+    border:0;
+    width:70%;
+    overflow:hidden
+}
+
+.container .content .resumeWord
+{
+    text-transform:uppercase;
+    font-size:70px;
+}
+
+#tooltip 
+{
+    position:relative;
+    display:inline-block;
+}
+
+#tooltip .tooltiptext 
+{
+    visibility:hidden;
+    font-size:20px;
+    text-transform:capitalize;
+    width:350px;
+    background-color:#145374;
+    color:white;
+    text-align:center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position:absolute;
+    z-index:1;
+    top:15px;
+    left:110%;
+    opacity:0;
+    transition:opacity 1s;
+}
+
+#tooltip .tooltiptext::after 
+{
+    content:"";
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-5px;
+    border-width:5px;
+    border-style:solid;
+    border-color:transparent #145374 transparent transparent;
+}
+
+#tooltip:hover .tooltiptext
+{
+    opacity:1;
+    visibility:visible;
+}
+
+.container .content div
+{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.container .content h2
+{
+    border-bottom:1px solid #22313F;
+}
+
+.container .content h3
+{
+    margin-top:25px;
+    font-size:20px;
+}
+
+.container .content p,
+.container .content ul
+{
+    text-align:justify;
+    margin-left:10%;
+    font-size:18px;
+}
+
+.container .content ul
+{
+    line-height:140%;
+    list-style:square;
+}
+
+.container .content .computerTable 
+{
+    border-collapse: collapse;
+    width:80%;
+    margin:0 auto;
+    font-size:18px;
+}
+
+.container .content .languageTable
+{
+    border-collapse: collapse;
+    width:100%;
+    margin:0 auto;
+    font-size:18px;
+}
+
+.container .content .trainingTable
+{
+    border-collapse: collapse;
+    width:100%;
+    margin:0 auto;
+    font-size:18px;
+}
+
+.container .content th
+{
+    color:#E2EFF1;
+    border:2px solid #145374;
+    padding:8px;
+    text-transform:uppercase;
+    text-align:center;
+    background:-webkit-linear-gradient(#145374,#5588A3);
+    background:-moz-linear-gradient(#145374,#5588A3);
+    background:-o-linear-gradient(#145374,#5588A3);
+}
+
+.container .content .computerTable td
+{
+    border:2px solid #145374;
+    text-align:left;
+    padding:8px;
+    text-indent:20px;
+    vertical-align:middle;
+}
+
+.container .content .languageTable td,
+.container .content .trainingTable td
+{
+    border:2px solid #145374;
+    text-align:center;
+    padding:8px;
+}
+
+.container .content tr:nth-child(even) 
+{
+    background-color:#E2EFF1;
+}
+
+.container .content .languageTable .skillType 
+{
+    text-transform:uppercase;
+}
+
+.container .content .computerTable td:first-child 
+{
+    font-weight:bold;
+    padding:4px;
+}
+
+.container .content .trainingTable td:first-child 
+{
+    font-weight:bold;
+    text-align:left;
+}
+
+.container .content .thumbnails
+{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.container .content .thumbnails ul
+{
+    list-style:none;
+    width:90%;
+    margin:auto;
+    padding:0;
+}
+
+.container .content .thumbnails ul li
+{
+    background-color:white;
+    padding:10px;
+    padding-bottom:15px;
+    float:left;
+    margin:20px 20px 25px 20px;
+    height:200px;
+}
+
+.container .content .thumbnails ul img 
+{
+    height:85%;
+    margin:auto;
+}
+
+.container .content .thumbnails ul li
+{
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}
+ 
+.container .content .thumbnails ul a:nth-child(even) li
+{
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+}
+
+.container .content .thumbnails ul a li:hover 
+{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    position: relative;
+    z-index: 1;
+    cursor:pointer;
+}
+
+.container .content .thumbnails ul li 
+{
+    -webkit-transition: -webkit-transform .15s linear;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+ 
+.container .content .thumbnails ul li 
+{
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+}

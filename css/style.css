@@ -1,0 +1,88 @@
+.container .content
+{
+    padding:0;
+    margin:auto;
+    border:0;
+}
+.container .content .introBox
+{
+    width:70%;
+    background-color:#AACFD0;
+    margin:200px auto 70px auto;
+    border: 1px solid #22313F;
+    border-radius:3px;
+    box-shadow:0 1px 5px #333 inset;
+    overflow:hidden;
+}
+
+.container .content .introBox .image
+{
+    width:45%;
+    overflow:hidden;
+    float:left;
+    margin:auto;
+}
+
+.container .content .introBox .image img
+{
+    width:82%;
+    border:5px solid white;
+    box-shadow:1px 1px 1px #333;
+    margin:10%;
+    padding:0;
+    border-radius:3px;
+    position:relative;
+    background-color:white;
+    opacity:1;
+    -webkit-transition:opacity .9s ease;
+    z-index:2;
+}
+
+.container .content .introBox .image img:hover
+{
+    opacity:0;
+}
+
+.container .content .introBox .image span
+{
+    position:absolute;
+    top:400px;
+    left:225px;
+    width:380px;
+    font-family: 'Tangerine', serif;
+    font-size:80px;
+    font-weight:900;
+    letter-spacing:130%;
+    -webkit-transform:rotateZ(-20deg);
+    -moz-transform:rotateZ(-20deg);
+    -o-transform:rotateZ(-20deg);
+    transform:rotateZ(-20deg);
+    text-indent:25px;
+    z-index:1;
+    display:none;
+}
+
+.container .content .introBox .briefIntro
+{
+    float:right;
+    width:50%;
+    margin:5% 2.5%;
+}
+
+.container .content .introBox .briefIntro .welcome
+{
+    font-size:35px;
+    line-height:normal;
+    width:90%;
+}
+
+.container .content .introBox .briefIntro .aboutMe
+{
+    text-align:justify;
+    text-indent:30px;
+    font-size:20px;
+    line-height:140%;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}

@@ -1,0 +1,397 @@
+.container .content
+{
+    padding:0;
+    margin:auto;
+    margin-top:200px;
+    margin-bottom:75px;
+    border:0;
+    width:70%;
+    overflow:hidden;
+}
+
+.container .content .projectsWord
+{
+    text-transform:uppercase;
+    font-size:70px;
+    margin-bottom:40px;
+}
+
+.container .content h2
+{
+    border-bottom:1px solid #22313F;
+    font-size:22px;
+    margin:0;
+}
+
+.container .content .bachelorProject
+{
+    margin:0;
+    overflow:hidden;
+    width:100%;
+}
+
+.container .content .less
+{
+    height:0;
+    overflow:hidden;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+    width:100%;
+}
+
+.container .content .more
+{
+    height:2800px;
+    overflow:hidden;
+    width:100%;
+}
+
+.container .content .bachelorProject .image
+{
+    width:45%;
+    padding:0;
+    margin:2.5%;
+    margin-top:100px;
+    float:left;
+}
+
+.container .content .bachelorProject .image img
+{
+    width:100%;
+    padding:0;
+    margin:auto;
+    vertical-align:middle;
+    box-shadow:1px 1px 2px #333;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.container .content .bachelorProject .image img:hover
+{
+    -webkit-filter: brightness(80%);
+}
+
+#tooltip 
+{
+    position:relative;
+    display:inline-block;
+}
+
+#tooltip .tooltiptext 
+{
+    visibility:hidden;
+    width:350px;
+    background-color:#145374;
+    color:white;
+    text-align:center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position:absolute;
+    z-index:1;
+    top:250px;
+    left:105%;
+    opacity:0;
+    transition:opacity 1s;
+}
+
+#tooltip .tooltiptext::after 
+{
+    content:"";
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-5px;
+    border-width:5px;
+    border-style:solid;
+    border-color:transparent #145374 transparent transparent;
+}
+
+#tooltip:hover .tooltiptext
+{
+    opacity:1;
+    visibility:visible;
+}
+
+#tooltip2
+{
+    position:relative;
+    display:inline-block;
+}
+
+#tooltip2 .tooltiptext2
+{
+    visibility:hidden;
+    width:350px;
+    background-color:#145374;
+    color:white;
+    text-align:center;
+    border-radius:6px;
+    padding:5px 0;
+    position:absolute;
+    z-index:1;
+    top:250px;
+    right:105%;
+    opacity:0;
+    transition:opacity 1s;
+}
+
+#tooltip2 .tooltiptext2::before 
+{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:100%;
+    margin-top:-5px;
+    border-width:5px;
+    border-style:solid;
+    border-color:transparent transparent transparent #145374;
+}
+
+#tooltip2:hover .tooltiptext2
+{
+    opacity:1;
+    visibility:visible;
+}
+
+.container .content .bachelorProject .abstract
+{
+    width:48%;
+    margin:1%;
+    float:right;
+}
+
+p
+{
+    text-align:justify;
+    font-size:18px;
+}
+
+.container .content #more
+{
+    display:block;
+}
+
+.container .content #less
+{
+    display:none;
+}
+
+.container .content .moreOrLess
+{
+    width:180px;
+    border:0;
+    font-family:Times, TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-size:16px;
+    background-color:#34495E;
+    color:white;
+    padding:3px;
+}
+
+.container .content .moreOrLess:hover
+{
+    -webkit-filter: brightness(140%);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    cursor:pointer;
+}
+
+.container .content .teamImage img
+{
+    -webkit-transform:rotate(3deg);
+    -moz-transform:rotate(3deg);
+    background-color:white;
+    padding:10px;
+    padding-bottom:20px;
+}
+
+.container .content .teamImage img:hover 
+{
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    position: relative;
+    z-index:2;
+}
+
+.container .content .teamImage img
+{
+    -webkit-transition: -webkit-transform .15s linear;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.2);
+    width:70%;
+    margin:0 10% 10% 10%;
+}
+ 
+.container .content .teamImage img:hover
+{
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+}
+
+.container .content .teamImage
+{
+    width:50%;
+    float:right;
+}
+
+.container .content .teamInfo
+{
+    width:47%;
+    float:left;
+    padding:0;
+    margin-left:3%;
+}
+
+.container .content .bachelorProject h3
+{
+    font-size:22px;
+    margin-top:40px;
+    border:0;
+}
+
+.container .content .teamInfo h4
+{
+    font-size:18px;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.container .content .teamInfo p
+{
+    padding:10px 10px 25px 10px;
+    margin:0;
+    border:0;
+    text-indent:0;
+}
+
+.container .content .videos
+{
+    width:100%;
+    margin:auto;
+}
+
+.container .content .videos ul li:first-child
+{
+    float:left;
+    margin:20px 20px 20px 5px;
+}
+
+.container .content .videos ul li:last-child
+{
+    float:right;
+    margin:20px 5px 20px 20px;
+}
+
+.container .content .videos ul li
+{
+    width:45%;
+    height:380px;
+    font-size:20px;
+    background-color:#AACFD0;
+    padding:10px;
+    -webkit-filter: brightness(110%);
+    -webkit-transition:-webkit-box-shadow 0.4s linear;
+    -webkit-box-shadow:0 2px 2px #888;
+    -moz-box-shadow:0 2px 2px #888;
+}
+
+.container .content .videos ul li:hover
+{
+    -webkit-box-shadow:0 3px 5px #333;
+    -moz-box-shadow:0 3px 5px #333;
+}
+
+.container .content .videos ul .none
+{
+     visibility:hidden
+}
+
+.container .content .videos ul li iframe
+{
+    width:100%;
+}
+
+.container .content .thumbnails
+{
+    width:85%;
+    margin:auto;
+}
+
+.container .content ul
+{
+    list-style:none;
+    overflow:hidden;
+    padding:0;
+}
+
+.container .content .thumbnails ul li
+{
+    width:28%;
+    float:left;
+    margin:20px 20px 20px 20px;
+    box-shadow:1px 1px 2px #333;
+}
+
+.container .content .thumbnails ul img 
+{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.container .content .thumbnails ul img:hover 
+{
+    cursor:pointer;
+    -webkit-filter: brightness(80%);
+}
+
+.container .content .posters
+{
+    width:90%;
+    padding:0;
+    margin:auto;
+    overflow:hidden;
+}
+
+.container .content .posters .poster1
+{
+    width:45%;
+    padding:0;
+    margin:auto;
+    float:left;
+}
+
+.container .content .posters .poster2
+{
+    width:45%;
+    padding:0;
+    margin:auto;
+    float:right;
+}
+
+.container .content .posters img
+{
+    width:100%;
+    padding:0;
+    margin:auto;
+    box-shadow:1px 1px 2px #333;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.container .content .posters img:hover
+{
+    -webkit-filter: brightness(80%);
+}
